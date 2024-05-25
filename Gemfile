@@ -15,7 +15,7 @@ gem "mongoid", "~> 3.0.0"
 gem 'sass-rails',   '~> 3.2.3'
 
 group :development, :test do
-  gem 'mailcatcher'
+  gem 'mailcatcher', '>= 0.10.0'
   gem "rspec-rails", ">= 2.0.1"
   gem "factory_girl_rails", "~> 4.0"
 end
