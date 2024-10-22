@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '6.1.7.9'
 
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
@@ -12,7 +12,7 @@ group :assets do
 end
 
 gem "mongoid", "~> 3.0.0"
-gem 'sass-rails',   '~> 3.2.3'
+gem 'sass-rails', '~> 6.0.0'
 
 group :development, :test do
   gem 'mailcatcher'
@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 gem "devise", '2.1.2'
-gem 'devise_invitable', '1.1.2'
+gem 'devise_invitable', '1.2.1'
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
 gem 'mongoid_slug'
