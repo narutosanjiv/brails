@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '7.1.5.2'
 
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
@@ -32,4 +32,4 @@ gem 'bootstrap-sass'
 gem 'mongoid-simple-roles'
 gem 'cancan'
 gem 'country_select'
-gem "mongoid-paperclip", :require => "mongoid_paperclip"
+gem "mongoid-paperclip", ">= 0.0.9", :require => "mongoid_paperclip"
