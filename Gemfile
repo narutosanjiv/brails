@@ -11,7 +11,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem "mongoid", "~> 3.0.0"
+gem "mongoid", "~> 7.6.1"
 gem 'sass-rails',   '~> 3.2.3'
 
 group :development, :test do
@@ -25,7 +25,7 @@ gem "devise", '2.1.2'
 gem 'devise_invitable', '1.1.2'
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
-gem 'mongoid_slug'
+gem 'mongoid_slug', '>= 3.1.2'
 #gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
 gem 'simple_form'
 gem 'bootstrap-sass'
